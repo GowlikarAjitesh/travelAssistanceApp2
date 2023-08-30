@@ -1,1 +1,1 @@
-# travelAssistantApp
+# travelAssistanceApp
