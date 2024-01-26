@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "travel_app",
+    "slug": "travel_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#EBD9CD"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": ["location"]
+      },
+      "fonts": [
+        {
+          "asset": "assets/fonts/FontAwesome.ttf"
+        }
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EBD9CD"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBmLj_6tI-wVz3yrcNXg6qTi1VPAOmzMNY"
+        }
+      },
+      "package": "com.dacarnage.travel_app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8265c929-f8ee-4b34-8f11-9f3cdb58954d"
+      }
+    }
+  }
+}
